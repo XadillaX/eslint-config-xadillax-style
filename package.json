@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-xadillax-style",
+  "version": "1.0.0",
+  "description": "A set of eslint shareable configs for javascript code style, which follows XadillaX' code style.",
+  "main": "node/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XadillaX/eslint-config-xadillax-style.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "XadillaX <i@2333.moe>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XadillaX/eslint-config-xadillax-style/issues"
+  },
+  "homepage": "https://github.com/XadillaX/eslint-config-xadillax-style#readme",
+  "devDependencies": {
+    "eslint": "^3.12.2"
+  }
+}
