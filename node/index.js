@@ -10,7 +10,10 @@ const _extends = [
     "possible_errors.js",
 
     "base/best_practices.js",
-    "best_practices.js"
+    "best_practices.js",
+
+    "base/variables.js",
+    "variables.js"
 ].map(path => require.resolve(`../eslint/${path}`));
 _extends.unshift("eslint:recommended");
 
