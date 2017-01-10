@@ -14,13 +14,13 @@ module.exports = {
         "no-shadow": [ "error", {
             hoist: "never",
             builtinGlobals: true
-        } ],
+        }],
 
         // disallow unused variables
         "no-unused-vars": [ "error", {
             argsIgnorePattern: "^_",
             caughtErrors: "none"
-        } ],
+        }],
 
         // require return statements after callbacks
         "callback-return": [
@@ -49,7 +49,7 @@ module.exports = {
         "no-mixed-requires": [ "error", {
             allowCall: true,
             grouping: true
-        } ],
+        }],
 
         // disallow the use of process.env
         "no-process-env": "off",

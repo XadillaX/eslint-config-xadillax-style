@@ -10,7 +10,7 @@ module.exports = {
         // enforce getter and setter pairs in objects
         "accessor-pairs": [ "error", {
             setWithoutGet: true
-        } ],
+        }],
 
         // enforce that class methods utilize `this`
         "class-methods-use-this": "off",
@@ -21,7 +21,7 @@ module.exports = {
         // require return statements to either always or never specify values
         "consistent-return": [ "error", {
             treatUndefinedAsUnspecified: false
-        } ],
+        }],
 
         // enforce consistent brace style for all control statements
         "curly": "off",
@@ -32,7 +32,7 @@ module.exports = {
         // enforce dot notation whenever possible
         "dot-notation": [ "error", {
             allowPattern: "([a-zA-Z0-9])(_)+([a-zA-Z0-9])"
-        } ],
+        }],
 
         // disallow the use of alert, confirm, and prompt
         "no-alert": "off",
@@ -49,7 +49,7 @@ module.exports = {
                 "generatorMethods",
                 "constructors"
             ]
-        } ],
+        }],
 
         // disallow leading or trailing decimal points in numeric literals
         "no-floating-decimal": "off",
@@ -70,7 +70,7 @@ module.exports = {
         }, {
             property: "__defineSetter__",
             message: "Please use Object.defineProperty instead."
-        } ],
+        }],
 
         // disallow javascript: urls
         "no-script-url": "off",
@@ -88,7 +88,7 @@ module.exports = {
         "vars-on-top": "off",
 
         // require parentheses around immediate function invocations
-        "wrap-iife": [ "error", "inside", { functionPrototypeMethods: true } ],
+        "wrap-iife": [ "error", "inside", { functionPrototypeMethods: true }],
 
         // require or disallow “Yoda” conditions
         "yoda": "off"

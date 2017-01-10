@@ -39,13 +39,20 @@ while(false) {
 }
 
 Object.defineProperty(temp, "o", {
+    // comment
     get: function() {
+        // another
         return 1;
     }
 });
 
 temp.a = 1;
+
+// and another
 temp._a_ = 2;
 temp["a_1"] = 3;
 temp["a-1"] = abcdeft();
 temp["__a_____b__"] = .4;
+
+var a = [[ 1 ]];
+console.log(a);

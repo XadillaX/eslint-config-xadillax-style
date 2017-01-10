@@ -16,12 +16,12 @@ module.exports = {
         // disallow constant expressions in conditions
         "no-constant-condition": [ "error", {
             checkLoops: false
-        } ],
+        }],
 
         // disallow empty block statements
         "no-empty": [ "error", {
             allowEmptyCatch: true
-        } ],
+        }],
 
         // disallow calling some `Object.prototype` methods directly on objects
         "no-prototype-builtins": "off",
