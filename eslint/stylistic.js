@@ -119,6 +119,88 @@ module.exports = {
         "lines-around-directive": [ "error", {
             before: "never",
             after: "always"
-        }]
+        }],
+
+        // enforce a maximum depth that blocks can be nested
+        "max-depth": "off",
+
+		// enforce a maximum line length
+        "max-len": [ "error", {
+            code: 120,
+            tabWidth: 4,
+            ignoreComments: true,
+            ignoreUrls: true
+        }],
+
+        // enforce a maximum file length
+        "max-lines": "off",
+
+        // enforce a maximum depth that callbacks can be nested
+        "max-nested-callbacks": [ "error", 10 ],
+
+        // enforce a maximum number of parameters in function definitions
+        "max-params": [ "error", 10 ],
+
+        // enforce a maximum number of statements allowed per line 
+        "max-statements-per-line": [ "error", {
+            max: 3
+        }],
+
+        // enforce a maximum number of statements allowed in function blocks
+        "max-statements": "off",
+
+        // enforce or disallow newlines between operands of ternary expressions
+        "multiline-ternary": "off",
+
+        // require constructor names to begin with a capital letter
+        "new-cap": [ "error", {
+            newIsCap: true,
+            capIsNew: true,
+            properties: true
+        }],
+
+        // require parentheses when invoking a constructor with no arguments
+        "new-parens": "error",
+
+        // require or disallow an empty line after variable declarations 
+        "newline-after-var": "off",
+
+        // require an empty line before return statements
+        "newline-before-return": "off",
+
+        // require a newline after each call in a method chain
+        "newline-per-chained-call": [ "error", {
+            ignoreChainWithDepth: 5
+        }],
+
+        // disallow Array constructors
+        "no-array-constructor": "error",
+
+        // disallow bitwise operators
+        "no-bitwise": "off",
+
+        // disallow continue statements
+        "no-continue": "off",
+
+        // disallow inline comments after code
+        "no-inline-comments": "off",
+
+        // disallow if statements as the only statement in else blocks
+        "no-lonely-if": "error",
+
+        // disallow mixed binary operators
+        "no-mixed-operators": [ "error", {
+            "groups": [
+                [ "+", "-", "*", "/", "%", "**" ],
+                [ "&", "|", "^", "~", "<<", ">>", ">>>" ],
+                [ "==", "!=", "===", "!==", ">", ">=", "<", "<=" ],
+                [ "&&", "||" ],
+                [ "in", "instanceof" ]
+            ],
+            "allowSamePrecedence": true
+        }],
+
+        // disallow mixed spaces and tabs for indentation
+        "no-mixed-spaces-and-tabs": "error"
     }
 };
