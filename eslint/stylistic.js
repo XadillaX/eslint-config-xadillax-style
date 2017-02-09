@@ -201,6 +201,15 @@ module.exports = {
         }],
 
         // disallow mixed spaces and tabs for indentation
-        "no-mixed-spaces-and-tabs": "error"
+        "no-mixed-spaces-and-tabs": "error",
+
+        // disallow multiple empty lines
+        "no-multiple-empty-lines": "error",
+
+        // disallow negated conditions
+        "no-negated-condition": "off",
+
+        // disallow nested ternary expressions
+        "no-nested-ternary": "off"
     }
 };
