@@ -124,7 +124,7 @@ module.exports = {
         // enforce a maximum depth that blocks can be nested
         "max-depth": "off",
 
-		// enforce a maximum line length
+        // enforce a maximum line length
         "max-len": [ "error", {
             code: 120,
             tabWidth: 4,
@@ -141,7 +141,7 @@ module.exports = {
         // enforce a maximum number of parameters in function definitions
         "max-params": [ "error", 10 ],
 
-        // enforce a maximum number of statements allowed per line 
+        // enforce a maximum number of statements allowed per line
         "max-statements-per-line": [ "error", {
             max: 3
         }],
@@ -162,7 +162,7 @@ module.exports = {
         // require parentheses when invoking a constructor with no arguments
         "new-parens": "error",
 
-        // require or disallow an empty line after variable declarations 
+        // require or disallow an empty line after variable declarations
         "newline-after-var": "off",
 
         // require an empty line before return statements
@@ -210,6 +210,42 @@ module.exports = {
         "no-negated-condition": "off",
 
         // disallow nested ternary expressions
-        "no-nested-ternary": "off"
+        "no-nested-ternary": "off",
+
+        // disallow `Object` constructors
+        "no-new-object": "error",
+
+        // disallow the unary operators ++ and --
+        "no-plusplus": "off",
+
+        // disallow specified syntax
+        "no-restricted-syntax": [ "error", "WithStatement" ],
+
+        // disallow all tabs
+        "no-tabs": "error",
+
+        // disallow ternary operators
+        "no-ternary": "off",
+
+        // disallow trailing whitespace at the end of lines
+        "no-trailing-spaces": "error",
+
+        // disallow dangling underscores in identifiers
+        "no-underscore-dangle": "off",
+
+        // disallow ternary operators when simpler alternatives exist
+        "no-unneeded-ternary": "error",
+
+        // disallow whitespace before properties
+        "no-whitespace-before-property": "error",
+
+        // enforce consistent line breaks inside braces
+        "object-curly-newline": "off",
+
+        // enforce consistent spacing inside braces
+        "object-curly-spacing": [ "error", "always", {
+            objectsInArrays: false,
+            arraysInArrays: false
+        }]
     }
 };
