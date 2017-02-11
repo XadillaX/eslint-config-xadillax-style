@@ -1,5 +1,5 @@
 {
   "extends": [
-    "xadillax-style/node"
+    "./node/index.js"
   ]
 }
