@@ -92,7 +92,7 @@ module.exports = {
         "rest-spread-spacing": [ "error", "never" ],
 
         // enforce sorted import declarations within modules
-        "sort-imports": [ "error", { ignoreCase: true }]
+        "sort-imports": [ "error", { ignoreCase: true }],
 
         // require symbol descriptions
         "symbol-description": "error",
