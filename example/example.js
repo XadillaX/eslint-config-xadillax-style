@@ -21,6 +21,10 @@ while(new Date()) {
 
 if(new Date()) console.log(1);
 
+/**
+ * a test function
+ * @returns {Undefined} no return
+ */
 function abcdeft() {
 }
 
@@ -54,5 +58,10 @@ temp["a_1"] = 3;
 temp["a-1"] = abcdeft();
 temp["__a_____b__"] = .4;
 
-var a = [[ 1 ]];
+const a = [[ 1 ]];
 console.log(a);
+
+// this is a comment
+//==================
+
+const u = () => u;
