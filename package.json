@@ -25,5 +25,8 @@
   "homepage": "https://github.com/XadillaX/eslint-config-xadillax-style#readme",
   "devDependencies": {
     "eslint": "^3.12.2"
+  },
+  "dependencies": {
+    "eslint-plugin-react": "^6.9.0"
   }
 }
