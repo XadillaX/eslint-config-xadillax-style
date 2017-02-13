@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-xadillax-style",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A set of eslint shareable configs for javascript code style, which follows XadillaX' code style.",
   "main": "node/index.js",
   "scripts": {
