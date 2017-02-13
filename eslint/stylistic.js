@@ -22,7 +22,7 @@ module.exports = {
         }],
 
         // enforce camelcase naming convention
-        "camelcase": [ "error", {
+        camelcase: [ "error", {
             properties: "always"
         }],
 
@@ -72,7 +72,7 @@ module.exports = {
         "id-match": "off",
 
         // enforce consistent indentation
-        "indent": [ "error", 4 ],
+        indent: [ "error", 4 ],
 
         // enforce the consistent use of either double or single quotes in JSX attributes
         "jsx-quotes": [ "error", "prefer-double" ],
@@ -89,11 +89,11 @@ module.exports = {
             before: true,
             after: true,
             overrides: {
-                "if": { after: false },
-                "for": { after: false },
-                "while": { after: false },
-                "catch": { after: false },
-                "switch": { after: false }
+                if: { after: false },
+                for: { after: false },
+                while: { after: false },
+                catch: { after: false },
+                switch: { after: false }
             }
         }],
 
@@ -190,14 +190,14 @@ module.exports = {
 
         // disallow mixed binary operators
         "no-mixed-operators": [ "error", {
-            "groups": [
+            groups: [
                 [ "+", "-", "*", "/", "%", "**" ],
                 [ "&", "|", "^", "~", "<<", ">>", ">>>" ],
                 [ "==", "!=", "===", "!==", ">", ">=", "<", "<=" ],
                 [ "&&", "||" ],
                 [ "in", "instanceof" ]
             ],
-            "allowSamePrecedence": true
+            allowSamePrecedence: true
         }],
 
         // disallow mixed spaces and tabs for indentation
@@ -244,8 +244,88 @@ module.exports = {
 
         // enforce consistent spacing inside braces
         "object-curly-spacing": [ "error", "always", {
-            objectsInArrays: false,
-            arraysInArrays: false
-        }]
+            arraysInObjects: false,
+            objectsInObjects: false
+        }],
+
+        // enforce placing object properties on separate lines
+        "object-property-newline": "off",
+
+        // require or disallow newlines around variable declarations
+        "one-var-declaration-per-line": "off",
+
+        // enforce variables to be declared either together or separately in functions
+        "one-var": [ "error", "never" ],
+
+        // require or disallow assignment operator shorthand where possible
+        "operator-assignment": "off",
+
+        // enforce consistent linebreak style for operators
+        "operator-linebreak": [ "error", "after" ],
+
+        // require or disallow padding within blocks
+        "padded-blocks": [ "error", "never" ],
+
+        // require quotes around object literal property names
+        "quote-props": [ "error", "as-needed" ],
+
+        // enforce the consistent use of either backticks, double, or single quotes
+        quotes: [ "error", "double" ],
+
+        // require JSDoc comments
+        "require-jsdoc": [ "error", {
+            require: {
+                FunctionDeclaration: true,
+                MethodDefinition: true,
+                ClassDeclaration: true,
+                ArrowFunctionExpression: false
+            }
+        }],
+
+        // Enforce spacing before and after semicolons
+        "semi-spacing": [ "error", {
+            before: false,
+            after: true
+        }],
+
+        // require or disallow semicolons instead of ASI
+        semi: [ "error", "always" ],
+
+        // require object keys to be sorted
+        "sort-keys": "off",
+
+        // require variables within the same declaration block to be sorted
+        "sort-vars": [ "error", {
+            ignoreCase: true
+        }],
+
+        // enforce consistent spacing before blocks
+        "space-before-blocks": [ "error", "always" ],
+
+        // enforce consistent spacing before function definition opening parenthesis
+        "space-before-function-paren": [ "error", "never" ],
+
+        // enforce consistent spacing inside parentheses
+        "space-in-parens": [ "error", "never" ],
+
+        // require spacing around infix operators
+        "space-infix-ops": [ "error" ],
+
+        // enforce consistent spacing before or after unary operators
+        "space-unary-ops": [ "error", {
+            words: true,
+            nonwords: false
+        }],
+
+        // enforce consistent spacing after the // or /* in a comment
+        "spaced-comment": [ "error", "always", {
+            exceptions: [ "-", "+", "=", "/" ]
+        }],
+
+        // require or disallow Unicode byte order mark (BOM)
+        "unicode-bom": [ "error", "never" ],
+
+        // require parenthesis around regex literals
+        "wrap-regex": "off"
     }
 };
