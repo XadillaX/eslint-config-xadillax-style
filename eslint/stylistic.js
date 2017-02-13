@@ -295,9 +295,7 @@ module.exports = {
         "sort-keys": "off",
 
         // require variables within the same declaration block to be sorted
-        "sort-vars": [ "error", {
-            ignoreCase: true
-        }],
+        "sort-vars": "off",
 
         // enforce consistent spacing before blocks
         "space-before-blocks": [ "error", "always" ],
