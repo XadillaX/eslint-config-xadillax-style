@@ -15,7 +15,9 @@ const _extends = [
     "base/variables.js",
     "variables.js",
 
-    "stylistic.js"
+    "stylistic.js",
+
+    "es6.js"
 ].map(path => require.resolve(`../eslint/${path}`));
 _extends.unshift("eslint:recommended");
 
