@@ -17,7 +17,9 @@ const _extends = [
 
     "stylistic.js",
 
-    "es6.js"
+    "es6.js",
+
+    "react.js"
 ].map(path => require.resolve(`../eslint/${path}`));
 _extends.unshift("eslint:recommended");
 
