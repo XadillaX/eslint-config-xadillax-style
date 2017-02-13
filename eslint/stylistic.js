@@ -273,14 +273,7 @@ module.exports = {
         quotes: [ "error", "double" ],
 
         // require JSDoc comments
-        "require-jsdoc": [ "error", {
-            require: {
-                FunctionDeclaration: true,
-                MethodDefinition: true,
-                ClassDeclaration: true,
-                ArrowFunctionExpression: false
-            }
-        }],
+        "require-jsdoc": "off",
 
         // Enforce spacing before and after semicolons
         "semi-spacing": [ "error", {
