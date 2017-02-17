@@ -16,7 +16,7 @@ module.exports = {
         "class-methods-use-this": "off",
 
         // enforce a maximum cyclomatic complexity allowed in a program
-        "complexity": [ "error", 2 ],
+        complexity: [ "error", 20 ],
 
         // require return statements to either always or never specify values
         "consistent-return": [ "error", {
@@ -24,7 +24,7 @@ module.exports = {
         }],
 
         // enforce consistent brace style for all control statements
-        "curly": "off",
+        curly: "off",
 
         // enforce newline before and after dot
         "dot-location": [ "error", "property" ],
@@ -82,7 +82,7 @@ module.exports = {
         "no-warning-comments": "off",
 
         // enforce the consistent use of the radix argument when using parseInt()
-        "radix": [ "error", "as-needed" ],
+        radix: [ "error", "as-needed" ],
 
         // require var declarations be placed at the top of their containing scope
         "vars-on-top": "off",
@@ -91,6 +91,6 @@ module.exports = {
         "wrap-iife": [ "error", "inside", { functionPrototypeMethods: true }],
 
         // require or disallow “Yoda” conditions
-        "yoda": "off"
+        yoda: "off"
     }
 };

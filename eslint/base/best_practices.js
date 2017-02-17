@@ -21,13 +21,13 @@ module.exports = {
         "class-methods-use-this": "error",
 
         // enforce a maximum cyclomatic complexity allowed in a program
-        "complexity": "error",
+        complexity: "error",
 
         // require return statements to either always or never specify values
         "consistent-return": "error",
 
         // enforce consistent brace style for all control statements
-        "curly": "error",
+        curly: "error",
 
         // require default cases in switch statements
         "default-case": "error",
@@ -39,7 +39,7 @@ module.exports = {
         "dot-notation": "error",
 
         // require the use of === and !==
-        "eqeqeq": "error",
+        eqeqeq: "error",
 
         // require for-in loops to include an if statement
         "guard-for-in": "error",
@@ -201,7 +201,7 @@ module.exports = {
         "no-with": "error",
 
         // enforce the consistent use of the radix argument when using parseInt()
-        "radix": "error",
+        radix: "error",
 
         // disallow async functions which have no await expression
         "require-await": "error",
@@ -213,6 +213,6 @@ module.exports = {
         "wrap-iife": "error",
 
         // require or disallow “Yoda” conditions
-        "yoda": "error"
+        yoda: "error"
     }
 };

@@ -30,6 +30,6 @@ module.exports = {
         "no-regex-spaces": "off",
 
         // disallow template literal placeholder syntax in regular strings
-        "no-template-curly-in-string": "off",
+        "no-template-curly-in-string": "off"
     }
 };
