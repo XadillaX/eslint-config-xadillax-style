@@ -13,7 +13,10 @@ module.exports = {
         // disallow variable declarations from shadowing variables declared in the outer scope
         "no-shadow": [ "error", {
             hoist: "never",
-            builtinGlobals: true
+            builtinGlobals: true,
+            allow: [
+                "callback", "done", "err", "error"
+            ]
         }],
 
         // disallow unused variables
