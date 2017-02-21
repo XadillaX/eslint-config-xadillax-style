@@ -64,6 +64,9 @@ module.exports = {
         "no-restricted-modules": "off",
 
         // disallow synchronous methods
-        "no-sync": "off"
+        "no-sync": "off",
+
+        // disallow the use of undefined as an identifier
+        "no-undefined": "off"
     }
 };
