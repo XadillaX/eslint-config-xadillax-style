@@ -189,16 +189,7 @@ module.exports = {
         "no-lonely-if": "error",
 
         // disallow mixed binary operators
-        "no-mixed-operators": [ "error", {
-            groups: [
-                [ "+", "-", "*", "/", "%", "**" ],
-                [ "&", "|", "^", "~", "<<", ">>", ">>>" ],
-                [ "==", "!=", "===", "!==", ">", ">=", "<", "<=" ],
-                [ "&&", "||" ],
-                [ "in", "instanceof" ]
-            ],
-            allowSamePrecedence: true
-        }],
+        "no-mixed-operators": "off",
 
         // disallow mixed spaces and tabs for indentation
         "no-mixed-spaces-and-tabs": "error",
