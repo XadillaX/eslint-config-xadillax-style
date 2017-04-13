@@ -32,11 +32,11 @@ module.exports = {
         // disallow template literal placeholder syntax in regular strings
         "no-template-curly-in-string": "off",
 
-        "no-extra-parens": [ "error", {
+        "no-extra-parens": [ "error", "all", {
             nestedBinaryExpressions: true,
             conditionalAssign: true,
             returnAssign: true,
             ignoreJSX: "all"
-        } ]
+        }]
     }
 };
