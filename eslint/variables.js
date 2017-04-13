@@ -15,7 +15,7 @@ module.exports = {
             hoist: "never",
             builtinGlobals: true,
             allow: [
-                "callback", "done", "err", "error"
+                "callback", "done", "err", "error", "root"
             ]
         }],
 
